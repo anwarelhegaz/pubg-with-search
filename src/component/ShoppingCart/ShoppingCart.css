@@ -1,0 +1,218 @@
+.shoping-product {
+    background-size: cover;
+    background-color: #fff;
+    position: fixed;
+    height: 100%;
+    right: 0;
+    top: 0;
+    width: 50%;
+    z-index: 999999999;
+    transition: all .3s;
+    background-position: 36%;
+    border: 2px #cd4943 solid;
+    padding: 20px 0;
+    overflow-x: hidden !important;
+    background-color: #fff;
+    box-shadow: -2px 0 15px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Enable vertical scrolling */
+    /* position: relative; */
+}
+@media (max-width: 992px) {
+    .shoping-product {
+        width: 70%;
+    }
+}
+
+.shoping-product .title {
+    color: #cd4943 !important;
+    font-size: 22px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+@media (max-width: 767px) {
+    .shoping-product .title {
+        font-size: 16PX;
+    }
+}
+
+/* Start Box Product ******************************************* */
+.box-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+    background-color: #e0dfdf36;
+    padding: 15px;
+    position: relative;
+}
+@media (max-width: 767px) {
+    .box-product {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    
+}
+.box-product .pro-details {
+    padding: 20px 0;
+    text-align: center;
+}
+.box-product .pro-name {
+    color: #f8a51b;
+    margin: 0;
+    font-size: 20px;
+}
+.box-product .price {
+    color: #019faf;
+    margin: 12px 0 10px !important;
+    display: block;
+    font-size: 18px;
+}
+/* .box-product .pro-size {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.box-product .pro-size button {
+    width: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #f8a51b;
+    margin: 0 5px;
+    border-radius: 9px;
+    padding: 5px 10px;
+    justify-content: space-around;
+    color: #cd4943;
+    font-size: 16px;
+    font-weight: 500;
+} */
+.quantity-pro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100px;
+    margin: 0 auto;
+}
+.quantity-pro button {
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 20%;
+    border: none;
+}
+.quantity-pro button.increase {
+    background: green;
+}
+.quantity-pro button.decrease {
+    background: #e86b6b;
+}
+.box-product .img-pro {
+    width: 200px;
+    height: 150px;
+
+}
+@media (max-width: 992px) {
+    .box-product .img-pro {
+        width: 180px;
+        height: 120px;
+    }
+}
+@media (max-width: 767px) {
+    .box-product .img-pro {
+        width: 150px;
+        height: 100px;
+    }
+}
+.box-product .img-pro img{
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.quantity-pro .count {
+    margin: 0;
+    color: tomato;
+    font-size: 24px;
+}
+
+.box-product .btn-remove-pro {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    background: #cd4943;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 16px;
+}
+.box-product .btn-remove-pro .btn-remove {
+    color: white !important;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.shoping-product .order-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: black;
+}
+@media (max-width: 767px) {
+    .shoping-product .order-data {
+        flex-direction: column;
+    }
+}
+.shoping-product .order-data span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+@media (max-width: 767px) {
+    .shoping-product .order-data span {
+        font-size: 16px;
+    }
+} 
+.shoping-product .order-data span.number-items,
+.shoping-product .order-data span.price-items {
+    color: #cd4943 !important;
+    margin:  0 10px;
+    font-size: 22px;
+}
+@media (max-width: 767px) {
+    .shoping-product .order-data .items-price-pro {
+        margin: 5px 0 !important;
+    }
+}
+
+button.request {
+    padding: 0 40px;
+    background-color: #cd4943 !important;
+}
+@media (max-width: 767px) {
+    button.request {
+        padding: 0px 40px;
+    }
+}
+button.request:hover {
+    padding: 0 40px;
+    background-color: #f8a51b !important;
+}
+
+
+
+
+
+
+
+

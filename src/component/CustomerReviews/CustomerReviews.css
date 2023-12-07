@@ -1,0 +1,105 @@
+
+.customer-reviews {
+    padding: 0 0 130px;
+    overflow: hidden;
+}
+.img-client {
+    animation: image-top 4s infinite linear;
+    -webkit-animation: image-top 4s infinite linear;
+}
+@keyframes image-top {
+    0%, 100% {
+        transform: translateY(-5px);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+} 
+/* .carosale-customer {
+    
+} */
+.carosale-customer .items-cus {
+    padding: 20px 10px;
+}
+.client-block {
+    background: #fff;
+    border: 1px #ddd solid;
+    padding: 30px;
+    border-radius: 20px;
+    direction: rtl;
+    float: right;
+    width: 100%;
+    transition: all .3s;
+    margin: 15px 0px;
+    text-align: right;
+}
+.client-block .title-client {
+    float: right;
+    width: 100%;
+}
+.client-block .title-client .icon {
+    background: #fcfcfc;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 62px;
+    float: right;
+}
+.client-block .title-client .icon span {
+    color: #cacaca;
+    font-size: 40px;
+    display: inline-block;
+}
+.client-block .title-client .name-client {
+    width: calc(100% - 40px);
+    display: inline-block;
+    padding-right: 15px;
+    line-height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    color: #606060;
+}
+.client-block .body-block {
+    float: right;
+    width: 100%;
+}
+.client-block .body-block p {
+    font-size: 12px;
+    height: 40px;
+    overflow: hidden;
+    color: #666666;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

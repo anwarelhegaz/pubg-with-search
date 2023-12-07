@@ -1,0 +1,47 @@
+.about-inner {
+    padding: 90px 0;
+}
+@media (max-width: 992px) {
+    .text-about {
+        margin-bottom: 50px;
+    }
+}
+
+.text-about h3 {
+    margin: 0;
+    font-size: 32px;
+    color: #f8a51b;
+    margin-bottom: 22px;
+    font-weight: 500;
+}
+.text-about .price {
+    font-size: 18px;
+    display: inline-block;
+    color: #019faf;
+    font-weight: 500;
+}
+.text-about .info {
+    color: #101010;
+    line-height: 2.5;
+    margin: 22px 0;
+}
+.text-about .bio {
+    font-weight: bold;
+    width: 50%;
+    margin-bottom: 15px;
+}
+.img-about {
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: -7px 7px 20px rgba(243, 231, 25, 0.2);
+}
+.img-about img {
+    height: 100%;
+    width: 100%;
+}
+@media (max-width: 992px) {
+    .img-about {
+        height: 400px;
+    }
+}

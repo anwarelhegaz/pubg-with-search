@@ -1,0 +1,92 @@
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right,
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left  {
+    display: none;
+}
+.carosale-super {
+    position: relative;
+}
+.carosale-super::before {
+    content: "";
+    position: absolute;
+    left: -90px;
+    height: 100%;
+    width: 33%;
+    top: 0;
+    z-index: 5555;
+    opacity: .5;
+    background: linear-gradient(to right, #f7a426, rgb(247, 164, 38));
+}
+.items {
+    padding: 0 10px;
+
+}
+.items .block-courses {
+    display: block;
+    height: 350px;
+    position: relative;
+    margin: 0 5px 30px;
+    text-align: center;
+}
+
+.items .block-courses img {
+    height: 100%;
+    margin: 15px 0;
+    border-radius: 15px;
+}
+.items .block-courses .details {
+    position: absolute;
+    padding: 15px 5px;
+    border-radius: 15px;
+    width: 85%;
+    margin: auto;
+    right: 0;
+    left: 0;
+    box-shadow: 7px 7px 50px rgba(26, 26, 26, .03);
+    transition: all .3s;
+    z-index: 0;
+    bottom: 0;
+    transform: translateY(-22%);
+    background: rgba(26, 21, 18, 0.68);
+    text-align: end;
+}
+.block-courses .details .name-course {
+    padding-right: 20px;
+}
+.block-courses .details .name-course::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    border: 2px #c43430 solid;
+    right: 7px;
+    border-radius: 50%;
+    top: 20px;
+    transition: all .3s;
+}
+.block-courses .details .name-course h4 {
+    font-size: 16px;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+}
+.block-courses .details .name-course p {
+    font-size: 11px;
+    color: #fff;
+    line-height: 20px;
+    margin-top: 15px;
+    height: 30px;
+    overflow: hidden;
+}
+.block-courses .details .pro-price {
+    color: #fff !important;
+}
+
+
+
+
+
+
+
+

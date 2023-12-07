@@ -1,0 +1,21 @@
+.gallary {
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.block-gallery.small {
+    height: 200px ;
+}
+@media (max-width: 992px) {
+    .block-gallery.small {
+        height: 300px;
+    }
+}
+
+.gallary .btn-more {
+    background: #f9a51a;
+}
+.gallary .btn-more:hover {
+    background: #d0544e;
+}
